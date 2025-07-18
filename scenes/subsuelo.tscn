@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cmn7sqd752yqv"]
+
+[ext_resource type="Texture2D" uid="uid://cs6202q3ej0qo" path="res://Sprites/Backgrounds/UGIntro.png" id="1_rpuwq"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_liaq7"]
+
+[node name="UndergroundMap" type="StaticBody2D"]
+physics_material_override = SubResource("PhysicsMaterial_liaq7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_rpuwq")
+region_enabled = true
+region_rect = Rect2(0, 1711, 745, 210)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-346, 26, -284, 90, -150, 90, -122, 50, 291, 50, 291, 10, 268, 10, 268, -47, 226, -47, 226, 10, -86, 10, -86, -62, -133, -90, -301, -90, -346, -65, -346, 26, -373, -105, 373, -105, 372, 105, -372, 104, -373, -105)

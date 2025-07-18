@@ -1,0 +1,70 @@
+[gd_scene load_steps=4 format=3 uid="uid://cj6hdk4on68ov"]
+
+[ext_resource type="FontFile" uid="uid://dj6orx85iw7f6" path="res://Fonts/PixelOperator-Bold.ttf" id="1_dyarx"]
+[ext_resource type="AudioStream" uid="uid://bimxiqwygryp5" path="res://sfx/voice/txt_generic_sfx.mp3" id="2_qdwih"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0dhrm"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+
+[node name="TextBox" type="CanvasLayer"]
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -169.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 20
+
+[node name="Panel" type="Panel" parent="MarginContainer"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0dhrm")
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 15
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 15
+
+[node name="Panel" type="Panel" parent="MarginContainer/MarginContainer"]
+visible = false
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="Inicio" type="Label" parent="MarginContainer/MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 5
+theme_override_fonts/font = ExtResource("1_dyarx")
+theme_override_font_sizes/font_size = 40
+text = "* "
+
+[node name="Texto" type="Label" parent="MarginContainer/MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("1_dyarx")
+theme_override_font_sizes/font_size = 40
+text = "Hola pendejos de mierda"
+
+[node name="Final" type="Label" parent="MarginContainer/MarginContainer/HBoxContainer"]
+visible = false
+layout_mode = 2
+size_flags_vertical = 8
+theme_override_fonts/font = ExtResource("1_dyarx")
+theme_override_font_sizes/font_size = 40
+text = "v"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="MarginContainer/MarginContainer"]
+stream = ExtResource("2_qdwih")
+max_polyphony = 1000

@@ -1,0 +1,42 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1752800588
+icon.svg::CompressedTexture2D/CompressedTexture2D::9178108221299956844::1752418934::1752418959::1::::<><><>0<>0<>31384a31da65af9c64353adfff9471e0<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+logo.png::CompressedTexture2D/CompressedTexture2D::8106391153036244702::1752421665::1752443823::1::::<><><>0<>0<>c6635e2a60eac038ca96636ce6e4d40a<>res://.godot/imported/logo.png-cca8726399059c8d4f806e28e356b14d.ctex::
+::res://Fonts/::1752795434
+DTM-Mono.otf::FontFile/FontFile::8692344571113266841::1752790891::1752795434::1::::<><><>0<>0<>48076ab7e94d8567bdea9adf6fe5c0c1<>res://.godot/imported/DTM-Mono.otf-c9a8ba02f7a0d1306b72871e16a0e9fd.fontdata::
+PixelOperator-Bold.ttf::FontFile/FontFile::7855839010982815737::1538626500::1752786964::1::::<><><>0<>0<>7fb3799e7a76b453171c4725d43fb44a<>res://.godot/imported/PixelOperator-Bold.ttf-dce4fe6e97610d504f5c5d2d2ebb3e1f.fontdata::
+::res://sample flute/::1752440455
+flute.wav::AudioStreamWAV/AudioStreamWAV::7136833373487806068::1752440453::1752440455::1::::<><><>0<>0<>73d4d71615909b41866953eaec6ba7e0<>res://.godot/imported/flute.wav-02a2d1488340ee8d3a20af7ffae72d01.sample::
+::res://scenes/::1752796588
+juego.tscn::PackedScene::6779350469994592971::1752796588::0::1::::<><><>0<>0<><>::uid://cmn7sqd752yqv::::res://scenes/subsuelo.tscn<>uid://evwpoimj4tlg::::res://scenes/yesica.tscn
+subsuelo.tscn::PackedScene::5643920336407311501::1752796588::0::1::::<><><>0<>0<><>::uid://cs6202q3ej0qo::::res://Sprites/Backgrounds/UGIntro.png
+text_box.tscn::PackedScene::5468967617522981437::1752796588::0::1::::<><><>0<>0<><>::uid://dj6orx85iw7f6::::res://Fonts/PixelOperator-Bold.ttf<>uid://bimxiqwygryp5::::res://sfx/voice/txt_generic_sfx.mp3
+Yesica.cs::CSharpScript::9078643127481147108::1752785580::0::1::::<>CharacterBody2D<><>0<>0<><>::
+yesica.tscn::PackedScene::325470616380572096::1752796588::0::1::::<><><>0<>0<><>::uid://vvjvab66m4uy::::res://Sprites/Characters/yesica/spritesheet.png<>uid://d2l06qlx356ts::::res://scenes/Yesica.cs
+::res://Scripts/::1752716941
+Camera.cs::CSharpScript::5013596593861630582::1752701251::0::1::::<>Camera2D<><>0<>0<><>::
+Jugador.cs::CSharpScript/CSharpScript::2607274726482597545::1752711200::0::1::::<><><>0<>0<><>::
+YesicaAnimate.cs::CSharpScript::5451142705430068267::1752503730::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
+yesicaanimationtree.cs::CSharpScript::7467047493047255157::1752631555::0::1::::<>AnimationTree<><>0<>0<><>::
+::res://sfx/::1752787705
+::res://sfx/voice/::1752795434
+snd-txt1-101soundboards.mp3::AudioStreamMP3/AudioStreamMP3::8463092599274457516::1752790941::1752795434::1::::<><><>0<>0<>e70f0b7ec71b422c685f9f9b9448e96b<>res://.godot/imported/snd-txt1-101soundboards.mp3-70a2095bc6cd420ede8ef0ca1463b3a5.mp3str::
+txt_generic_sfx.mp3::AudioStreamMP3/AudioStreamMP3::2974115618489409380::1752787716::1752787747::1::::<><><>0<>0<>ba6bcf00f331620e3ca5b1bc78a0554e<>res://.godot/imported/txt_generic_sfx.mp3-460b365c0609d3887ba28a966cbf281d.mp3str::
+::res://Sprites/::1752786263
+::res://Sprites/Backgrounds/::1752795440
+nuevo_subsuelo.png::CompressedTexture2D/CompressedTexture2D::4820460412854561563::1752793485::1752795440::1::::<><><>0<>0<>c207bf5af533f5aaea5d2bcb1fc6e5b5<>res://.godot/imported/nuevo_subsuelo.png-8c5d006f24b01e4971720b32cab5e699.ctex::
+School Interior.png::CompressedTexture2D/CompressedTexture2D::8294641244233363294::1752420027::1752420138::1::::<><><>0<>0<>85b9ad362e9504155bfef6f4b8073985<>res://.godot/imported/School Interior.png-41408ef61dda1de7e6a50908829aebbe.ctex::
+UGIntro.png::CompressedTexture2D/CompressedTexture2D::6101921711024199962::1752445807::1752445809::1::::<><><>0<>0<>bdbe04c31652fffb88f6d1c77d99d853<>res://.godot/imported/UGIntro.png-44d767046051641501cd3607293f569c.ctex::
+::res://Sprites/Characters/::1752793111
+::res://Sprites/Characters/unknown/::1752795434
+unknown_spritesheet.png::CompressedTexture2D/CompressedTexture2D::3726099536901446810::1752793120::1752795434::1::::<><><>0<>0<>663ad93dea84e0d9ae034561e2bff225<>res://.godot/imported/unknown_spritesheet.png-ac62f285179a15f1730e714193899a24.ctex::
+::res://Sprites/Characters/yesica/::1752449089
+spritesheet.png::CompressedTexture2D/CompressedTexture2D::1517901606836071204::1752449015::1752449089::1::::<><><>0<>0<>24d54b9bf23b040292a4d27d30af0e28<>res://.godot/imported/spritesheet.png-c3b62ecfd9f419dea6a14f99a31978e6.ctex::
+::res://Sprites/Characters/yesica exe/::1752795434
+yesica ecse.png::CompressedTexture2D/CompressedTexture2D::7679249878512747057::1752792237::1752795434::1::::<><><>0<>0<>fc892ea045c187118300bd17ffe6b1ce<>res://.godot/imported/yesica ecse.png-977024cc22fa7f8ea52c4cde1645eed7.ctex::
+::res://Sprites/Objects/::1752795434
+arbustos.png::CompressedTexture2D/CompressedTexture2D::167725184450090525::1752791864::1752795434::1::::<><><>0<>0<>7a4562882e842f7a5616f9eb17a8be8a<>res://.godot/imported/arbustos.png-f9d3144338d9330a96da13753b420073.ctex::
+estatuas.png::CompressedTexture2D/CompressedTexture2D::7022874391789054739::1752786271::1752786290::1::::<><><>0<>0<>e8b2bc9db390938deebe35d5bd305cee<>res://.godot/imported/estatuas.png-cc3a66dcd927b695f42e44078d882d68.ctex::
+padadaria.png::CompressedTexture2D/CompressedTexture2D::7973595675953850082::1752792084::1752795434::1::::<><><>0<>0<>348a8b9e67561ff03dca53b728fe45de<>res://.godot/imported/padadaria.png-cdd512f7c7f9b0f72aceb7f8a7fab057.ctex::
+::res://Undertale-Empathy/::1752799561
+README.md::TextFile::-1::1752799561::0::1::::<><><>0<>0<><>::

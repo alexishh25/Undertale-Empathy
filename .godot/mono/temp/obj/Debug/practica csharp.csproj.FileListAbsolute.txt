@@ -1,0 +1,17 @@
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\bin\Debug\practica csharp.deps.json
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\bin\Debug\practica csharp.runtimeconfig.json
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\bin\Debug\practica csharp.dll
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\bin\Debug\practica csharp.pdb
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\obj\Debug\practica csharp.csproj.AssemblyReference.cache
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\obj\Debug\practica csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\obj\Debug\practica csharp.AssemblyInfoInputs.cache
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\obj\Debug\practica csharp.AssemblyInfo.cs
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\obj\Debug\practica csharp.csproj.CoreCompileInputs.cache
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\obj\Debug\practica.228D19C2.Up2Date
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\obj\Debug\practica csharp.dll
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\obj\Debug\refint\practica csharp.dll
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\obj\Debug\practica csharp.pdb
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\obj\Debug\practica csharp.genruntimeconfig.cache
+C:\Users\Alexis\Documents\practica-csharp\.godot\mono\temp\obj\Debug\ref\practica csharp.dll
