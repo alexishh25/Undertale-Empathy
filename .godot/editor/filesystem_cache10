@@ -1,14 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1753370760
+::res://::1753385431
 icon.svg::CompressedTexture2D/CompressedTexture2D::7948098737677925758::1753155289::1753155289::1::::<><><>0<>0<>a1797d577e0335c622c231a9b58d9ac6<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://Scenes/::1753370837
-Border.tscn::PackedScene::8153527265005569949::1753327040::0::1::::<><><>0<>0<><>::uid://bn2ubxb706ubj::::res://Sprites/Wall.png
-game.tscn::PackedScene::5915596966306946985::1753370837::0::1::::<><><>0<>0<><>::uid://corxja53rqawn::::res://Scenes/Player.tscn<>uid://drymsh1hpt4x7::::res://Sprites/spritesheet.png<>uid://dofvnxwax40gv::::res://Scenes/Border.tscn
-Player.tscn::PackedScene::5791992210756116105::1753327040::0::1::::<><><>0<>0<><>::uid://cn8qicxxrrntg::::res://Scripts/Player.cs<>uid://drymsh1hpt4x7::::res://Sprites/spritesheet.png
-::res://Scripts/::1753326276
-Player.cs::CSharpScript::5754406700445716472::1753326276::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://Sprites/::1753370923
-PC Computer - Undertale - Ruins.png::CompressedTexture2D::8886344383463592691::1753370923::1753370924::1::::<><><>0<>0<>6c6a708eebeec32af466a0c4066ed470<>res://.godot/imported/PC Computer - Undertale - Ruins.png-d997a1b3ecc4d17d65f6bdce496408f4.ctex::
+::res://Scenes/::1753383704
+Border.tscn::PackedScene::8153527265005569949::1753383462::0::1::::<><><>0<>0<><>::uid://bn2ubxb706ubj::::res://Sprites/Wall.png
+game.tscn::PackedScene::5915596966306946985::1753383704::0::1::::<><><>0<>0<><>::uid://corxja53rqawn::::res://Scenes/Player.tscn<>uid://drymsh1hpt4x7::::res://Sprites/spritesheet.png<>uid://dofvnxwax40gv::::res://Scenes/Border.tscn<>uid://dyuu18q8e8ujj::::res://Sprites/PC Computer - Undertale - Ruins.png
+Player.tscn::PackedScene::5791992210756116105::1753383669::0::1::::<><><>0<>0<><>::uid://cn8qicxxrrntg::::res://Scripts/Player.cs<>uid://drymsh1hpt4x7::::res://Sprites/spritesheet.png
+::res://Scripts/::1753383581
+Player.cs::CSharpScript::5754406700445716472::1753383581::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://Sprites/::1753370924
+PC Computer - Undertale - Ruins.png::CompressedTexture2D/CompressedTexture2D::8886344383463592691::1753370923::1753370924::1::::<><><>0<>0<>6c6a708eebeec32af466a0c4066ed470<>res://.godot/imported/PC Computer - Undertale - Ruins.png-d997a1b3ecc4d17d65f6bdce496408f4.ctex::
 sd.png::CompressedTexture2D/CompressedTexture2D::1044904417612776260::1753324217::1753324218::1::::<><><>0<>0<>c00d1b809e1ccb015b839809af621c9b<>res://.godot/imported/sd.png-750427e7f1a6d1cb336b0afc546e70e1.ctex::
 spritesheet.png::CompressedTexture2D/CompressedTexture2D::8402778615394013962::1753309075::1753324221::1::::<><><>0<>0<>c58cf96d59ffa0733fb77ce57577fe9f<>res://.godot/imported/spritesheet.png-8d1e45e7c563b1fc59afddcd8efeb8ef.ctex::
 Wall.png::CompressedTexture2D/CompressedTexture2D::3355831187066811459::1753327018::1753327023::1::::<><><>0<>0<>4e5c9c8fb7e1887f3e5fe0749d4cdedd<>res://.godot/imported/Wall.png-c1e6c8a44733b40234aae37bb1bf51ff.ctex::

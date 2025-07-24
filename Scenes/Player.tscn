@@ -132,13 +132,9 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dewec"]
 size = Vector2(20, 3.75)
 
-[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("RayCastLeft", "RayCastRight", "RayCastLeftUp", "RayCastRightUp")]
+[node name="Player" type="CharacterBody2D"]
 z_index = 5
 script = ExtResource("1_kyqiw")
-RayCastLeft = NodePath("")
-RayCastRight = NodePath("")
-RayCastLeftUp = NodePath("")
-RayCastRightUp = NodePath("")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_gntrk")
