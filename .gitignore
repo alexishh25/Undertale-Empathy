@@ -1,3 +1,27 @@
-# Godot 4+ specific ignores
-.godot/
-/android/
+# Archivos locales del editor que causan conflictos
+.godot/editor/
+.godot/imported/
+.godot/filesystem_cache*
+.godot/project_metadata.cfg
+
+# Cachés y artefactos generados automáticamente
+.import/
+.export/
+mono/.mono_temp/
+shader_cache/
+*.tmp
+*.backup
+*.old
+
+# Archivos generados por IDEs o plataformas
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de C#
+*.csproj
+*.sln
+*.user
+*.uid
+*.cs.uid
