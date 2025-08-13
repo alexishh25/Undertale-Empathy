@@ -1,27 +1,42 @@
-# Archivos locales del editor que causan conflictos
-.godot/editor/
-.godot/imported/
-.godot/filesystem_cache*
-.godot/project_metadata.cfg
-
-# Cachés y artefactos generados automáticamente
+# --- Godot ---
+# Carpetas de cache del editor
 .import/
 .export/
-mono/.mono_temp/
-shader_cache/
+
+# Archivos de configuración locales
+export_presets.cfg
+.godot/
+
+# Archivos generados por el editor (opcional)
+*.translation
+*.import
 *.tmp
-*.backup
-*.old
 
-# Archivos generados por IDEs o plataformas
-.vscode/
-*.log
-.DS_Store
-Thumbs.db
+# --- Mono / C# ---
+# Compilación
+/bin/
+/obj/
 
-# Archivos de configuración de C#
-*.csproj
-*.sln
+# Archivos de dependencias de usuario
 *.user
-*.uid
-*.cs.uid
+*.userprefs
+*.suo
+
+# Archivos de IDEs
+.vs/
+.idea/
+*.csproj.user
+
+# --- Sistema operativo ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*~
