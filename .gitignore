@@ -1,27 +1,69 @@
-# Archivos locales del editor que causan conflictos
-.godot/editor/
-.godot/imported/
-.godot/filesystem_cache*
-.godot/project_metadata.cfg
+# ==========================
+# Godot 4 + Mono C# .gitignore
+# ==========================
 
-# Cachés y artefactos generados automáticamente
+# --- Godot ---
+# Carpetas de importación y exportación (generadas automáticamente)
 .import/
 .export/
-mono/.mono_temp/
-shader_cache/
+
+# Configuración y cache local del editor
+.godot/
+
+# Archivos generados por Godot que no deben versionarse
+*.import
 *.tmp
-*.backup
-*.old
+*.translation
 
-# Archivos generados por IDEs o plataformas
-.vscode/
-*.log
-.DS_Store
-Thumbs.db
+# Presets de exportación (pueden contener rutas locales)
+export_presets.cfg
 
-# Archivos de configuración de C#
-*.csproj
-*.sln
+# --- Mono / .NET ---
+# Carpetas de compilación
+/bin/
+/obj/
+
+# Archivos temporales de bloqueo de compilación
+*.pidb
+*.mdb
+
+# Archivos de usuario (configuración local del IDE)
 *.user
-*.uid
-*.cs.uid
+*.userprefs
+*.suo
+*.csproj.user
+
+# --- Visual Studio ---
+.vs/
+.idea/                # Para JetBrains Rider
+*.svd
+
+# Archivos de caché y temporales de Rider/VSCode
+.vscode/
+*.orig
+
+# --- NuGet ---
+# Paquetes descargados (normalmente se restauran con dotnet restore)
+packages/
+# Archivos de lock (opcional, quitar si quieres que se controle la versión exacta)
+# *.lock.json
+
+# --- Sistema operativo ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# ==========================
+# Notas:
+# - NO ignores .csproj, .sln ni archivos .gd, .tscn, .tres ya que son parte del proyecto.
+# - "export_presets.cfg" se ignora para evitar rutas locales, pero si trabajas en equipo y tienen presets comunes, inclúyelo.
+# ==========================
