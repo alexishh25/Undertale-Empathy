@@ -1,31 +1,52 @@
+# ==========================
+# Godot 4 + Mono C# .gitignore
+# ==========================
+
 # --- Godot ---
-# Carpetas de cache del editor
+# Carpetas de importación y exportación (generadas automáticamente)
 .import/
 .export/
 
-# Archivos de configuración locales
-export_presets.cfg
+# Configuración y cache local del editor
 .godot/
 
-# Archivos generados por el editor (opcional)
-*.translation
+# Archivos generados por Godot que no deben versionarse
 *.import
 *.tmp
+*.translation
 
-# --- Mono / C# ---
-# Compilación
+# Presets de exportación (pueden contener rutas locales)
+export_presets.cfg
+
+# --- Mono / .NET ---
+# Carpetas de compilación
 /bin/
 /obj/
 
-# Archivos de dependencias de usuario
+# Archivos temporales de bloqueo de compilación
+*.pidb
+*.mdb
+
+# Archivos de usuario (configuración local del IDE)
 *.user
 *.userprefs
 *.suo
-
-# Archivos de IDEs
-.vs/
-.idea/
 *.csproj.user
+
+# --- Visual Studio ---
+.vs/
+.idea/                # Para JetBrains Rider
+*.svd
+
+# Archivos de caché y temporales de Rider/VSCode
+.vscode/
+*.orig
+
+# --- NuGet ---
+# Paquetes descargados (normalmente se restauran con dotnet restore)
+packages/
+# Archivos de lock (opcional, quitar si quieres que se controle la versión exacta)
+# *.lock.json
 
 # --- Sistema operativo ---
 # macOS
@@ -40,3 +61,9 @@ desktop.ini
 
 # Linux
 *~
+
+# ==========================
+# Notas:
+# - NO ignores .csproj, .sln ni archivos .gd, .tscn, .tres ya que son parte del proyecto.
+# - "export_presets.cfg" se ignora para evitar rutas locales, pero si trabajas en equipo y tienen presets comunes, inclúyelo.
+# ==========================
