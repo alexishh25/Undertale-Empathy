@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\CARLOS FUENTES\\Documents\\Undertale-Empathy\\",
+  "WorkspaceRootPath": "C:\\Users\\Alexis\\Documents\\GitHub\\Undertale-Empathy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D74FC056-8390-470F-A5E6-F7A1384C3927}|Undertale Empathy.csproj|c:\\users\\carlos fuentes\\documents\\undertale-empathy\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D74FC056-8390-470F-A5E6-F7A1384C3927}|Undertale Empathy.csproj|solutionrelative:scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C502760-5B6B-4C64-A81A-4AD848924E44}|Undertale Empathy.csproj|c:\\users\\alexis\\documents\\github\\undertale-empathy\\scripts\\textboxsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C502760-5B6B-4C64-A81A-4AD848924E44}|Undertale Empathy.csproj|solutionrelative:scripts\\textboxsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C502760-5B6B-4C64-A81A-4AD848924E44}|Undertale Empathy.csproj|c:\\users\\alexis\\documents\\github\\undertale-empathy\\scripts\\script_dialoguearea2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C502760-5B6B-4C64-A81A-4AD848924E44}|Undertale Empathy.csproj|solutionrelative:scripts\\script_dialoguearea2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C502760-5B6B-4C64-A81A-4AD848924E44}|Undertale Empathy.csproj|c:\\users\\alexis\\documents\\github\\undertale-empathy\\scripts\\dialogfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C502760-5B6B-4C64-A81A-4AD848924E44}|Undertale Empathy.csproj|solutionrelative:scripts\\dialogfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C502760-5B6B-4C64-A81A-4AD848924E44}|Undertale Empathy.csproj|c:\\users\\alexis\\documents\\github\\undertale-empathy\\scripts\\de.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C502760-5B6B-4C64-A81A-4AD848924E44}|Undertale Empathy.csproj|solutionrelative:scripts\\de.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C502760-5B6B-4C64-A81A-4AD848924E44}|Undertale Empathy.csproj|c:\\users\\alexis\\documents\\github\\undertale-empathy\\scripts\\scriptpruebadialogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C502760-5B6B-4C64-A81A-4AD848924E44}|Undertale Empathy.csproj|solutionrelative:scripts\\scriptpruebadialogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C502760-5B6B-4C64-A81A-4AD848924E44}|Undertale Empathy.csproj|c:\\users\\alexis\\documents\\github\\undertale-empathy\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C502760-5B6B-4C64-A81A-4AD848924E44}|Undertale Empathy.csproj|solutionrelative:scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\CARLOS FUENTES\\Documents\\Undertale-Empathy\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Scripts\\Player.cs",
-              "ToolTip": "C:\\Users\\CARLOS FUENTES\\Documents\\Undertale-Empathy\\Scripts\\Player.cs",
-              "RelativeToolTip": "Scripts\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "Title": "TextBoxSystem.cs",
+              "DocumentMoniker": "C:\\Users\\Alexis\\Documents\\GitHub\\Undertale-Empathy\\Scripts\\TextBoxSystem.cs",
+              "RelativeDocumentMoniker": "Scripts\\TextBoxSystem.cs",
+              "ToolTip": "C:\\Users\\Alexis\\Documents\\GitHub\\Undertale-Empathy\\Scripts\\TextBoxSystem.cs",
+              "RelativeToolTip": "Scripts\\TextBoxSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T23:10:19.147Z",
+              "WhenOpened": "2025-07-30T00:33:19.998Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScriptPruebadialogo.cs",
+              "DocumentMoniker": "C:\\Users\\Alexis\\Documents\\GitHub\\Undertale-Empathy\\Scripts\\ScriptPruebadialogo.cs",
+              "RelativeDocumentMoniker": "Scripts\\ScriptPruebadialogo.cs",
+              "ToolTip": "C:\\Users\\Alexis\\Documents\\GitHub\\Undertale-Empathy\\Scripts\\ScriptPruebadialogo.cs",
+              "RelativeToolTip": "Scripts\\ScriptPruebadialogo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T00:29:46.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DialogFunc.cs",
+              "DocumentMoniker": "C:\\Users\\Alexis\\Documents\\GitHub\\Undertale-Empathy\\Scripts\\DialogFunc.cs",
+              "RelativeDocumentMoniker": "Scripts\\DialogFunc.cs",
+              "ToolTip": "C:\\Users\\Alexis\\Documents\\GitHub\\Undertale-Empathy\\Scripts\\DialogFunc.cs",
+              "RelativeToolTip": "Scripts\\DialogFunc.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T00:27:41.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DE.cs",
+              "DocumentMoniker": "C:\\Users\\Alexis\\Documents\\GitHub\\Undertale-Empathy\\Scripts\\DE.cs",
+              "RelativeDocumentMoniker": "Scripts\\DE.cs",
+              "ToolTip": "C:\\Users\\Alexis\\Documents\\GitHub\\Undertale-Empathy\\Scripts\\DE.cs",
+              "RelativeToolTip": "Scripts\\DE.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T00:27:33.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "script_DialogueArea2d.cs",
+              "DocumentMoniker": "C:\\Users\\Alexis\\Documents\\GitHub\\Undertale-Empathy\\Scripts\\script_DialogueArea2d.cs",
+              "RelativeDocumentMoniker": "Scripts\\script_DialogueArea2d.cs",
+              "ToolTip": "C:\\Users\\Alexis\\Documents\\GitHub\\Undertale-Empathy\\Scripts\\script_DialogueArea2d.cs",
+              "RelativeToolTip": "Scripts\\script_DialogueArea2d.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T00:03:05.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Alexis\\Documents\\GitHub\\Undertale-Empathy\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\Alexis\\Documents\\GitHub\\Undertale-Empathy\\Scripts\\Player.cs",
+              "RelativeToolTip": "Scripts\\Player.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T15:53:45.769Z"
             }
           ]
         }

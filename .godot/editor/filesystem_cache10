@@ -1,14 +1,31 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1753385431
-icon.svg::CompressedTexture2D/CompressedTexture2D::7948098737677925758::1753155289::1753155289::1::::<><><>0<>0<>a1797d577e0335c622c231a9b58d9ac6<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://Scenes/::1753383704
-Border.tscn::PackedScene::8153527265005569949::1753383462::0::1::::<><><>0<>0<><>::uid://bn2ubxb706ubj::::res://Sprites/Wall.png
-game.tscn::PackedScene::5915596966306946985::1753383704::0::1::::<><><>0<>0<><>::uid://corxja53rqawn::::res://Scenes/Player.tscn<>uid://drymsh1hpt4x7::::res://Sprites/spritesheet.png<>uid://dofvnxwax40gv::::res://Scenes/Border.tscn<>uid://dyuu18q8e8ujj::::res://Sprites/PC Computer - Undertale - Ruins.png
-Player.tscn::PackedScene::5791992210756116105::1753383669::0::1::::<><><>0<>0<><>::uid://cn8qicxxrrntg::::res://Scripts/Player.cs<>uid://drymsh1hpt4x7::::res://Sprites/spritesheet.png
-::res://Scripts/::1753383581
-Player.cs::CSharpScript::5754406700445716472::1753383581::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://Sprites/::1753370924
-PC Computer - Undertale - Ruins.png::CompressedTexture2D/CompressedTexture2D::8886344383463592691::1753370923::1753370924::1::::<><><>0<>0<>6c6a708eebeec32af466a0c4066ed470<>res://.godot/imported/PC Computer - Undertale - Ruins.png-d997a1b3ecc4d17d65f6bdce496408f4.ctex::
-sd.png::CompressedTexture2D/CompressedTexture2D::1044904417612776260::1753324217::1753324218::1::::<><><>0<>0<>c00d1b809e1ccb015b839809af621c9b<>res://.godot/imported/sd.png-750427e7f1a6d1cb336b0afc546e70e1.ctex::
-spritesheet.png::CompressedTexture2D/CompressedTexture2D::8402778615394013962::1753309075::1753324221::1::::<><><>0<>0<>c58cf96d59ffa0733fb77ce57577fe9f<>res://.godot/imported/spritesheet.png-8d1e45e7c563b1fc59afddcd8efeb8ef.ctex::
-Wall.png::CompressedTexture2D/CompressedTexture2D::3355831187066811459::1753327018::1753327023::1::::<><><>0<>0<>4e5c9c8fb7e1887f3e5fe0749d4cdedd<>res://.godot/imported/Wall.png-c1e6c8a44733b40234aae37bb1bf51ff.ctex::
+::res://::1754002877
+icon.svg::CompressedTexture2D/CompressedTexture2D::7948098737677925758::1753122365::1753122753::1::::<><><>0<>0<>a1797d577e0335c622c231a9b58d9ac6<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://Fonts/::1753638310
+PixelOperatorMono-Bold.ttf::FontFile/FontFile::5082380695530637813::1538626500::1753638310::1::::<><><>0<>0<>cbf784acfab58bf27ebbd4d1e3508e4c<>res://.godot/imported/PixelOperatorMono-Bold.ttf-5b44a6c2a7c19862d978936e9c9bfa42.fontdata::
+::res://resources/::1753307382
+::res://Scenes/::1753834485
+Border.tscn::PackedScene/PackedScene::8153527265005569949::1753832226::0::1::::<><><>0<>0<><>::uid://bn2ubxb706ubj::::res://Sprites/Wall.png
+Btn_Dialog.tscn::PackedScene/PackedScene::3276908957813290090::1753832226::0::1::::<><><>0<>0<><>::uid://cen7ckboocc5b::::res://Fonts/PixelOperatorMono-Bold.ttf
+DialogueArea2D.tscn::PackedScene/PackedScene::1663850062519483866::1753832226::0::1::::<><><>0<>0<><>::uid://bgv1x8c7xqesn::::res://Scripts/script_DialogueArea2d.cs
+game.tscn::PackedScene/PackedScene::5915596966306946985::1753834485::0::1::::<><><>0<>0<><>::uid://corxja53rqawn::::res://Scenes/Player.tscn<>uid://xx8mq013tmj7::::res://Scenes/DialogueArea2D.tscn<>uid://dyuu18q8e8ujj::::res://Sprites/PC Computer - Undertale - Ruins.png
+Player.tscn::PackedScene/PackedScene::5791992210756116105::1753832226::0::1::::<><><>0<>0<><>::uid://cn8qicxxrrntg::::res://Scripts/Player.cs<>uid://drymsh1hpt4x7::::res://Sprites/spritesheet.png
+TxtBx_System.tscn::PackedScene/PackedScene::307154119941669694::1753832226::0::1::::<><><>0<>0<><>::uid://4cebsvwdwd36::::res://Scripts/TextBoxSystem.cs<>uid://cen7ckboocc5b::::res://Fonts/PixelOperatorMono-Bold.ttf
+::res://Scripts/::1753833740
+DE.cs::CSharpScript/CSharpScript::7726199044146802195::1753820275::0::1::::DE<>Resource<><>0<>0<><>::
+DialogChoice.cs::CSharpScript/CSharpScript::1553162824180734174::1753833721::0::1::::<><><>0<>0<><>::
+DialogFunc.cs::CSharpScript/CSharpScript::723784755544916869::1753833725::0::1::::<><><>0<>0<><>::
+Player.cs::CSharpScript/CSharpScript::5754406700445716472::1753832239::0::1::::<>CharacterBody2D<><>0<>0<><>::
+ScriptPruebadialogo.cs::CSharpScript/CSharpScript::7124049458275114709::1753820302::0::1::::<>Node<><>0<>0<><>::
+script_DialogueArea2d.cs::CSharpScript/CSharpScript::2852527131273758321::1753831116::0::1::::<>Area2D<><>0<>0<><>::
+TextBoxSystem.cs::CSharpScript/CSharpScript::2039850853641682243::1753833005::0::1::::<>Node2D<><>0<>0<><>::
+TxtDialogue.cs::CSharpScript/CSharpScript::7446521216551271938::1753833740::0::1::::<><><>0<>0<><>::
+::res://sfx/::1753122772
+::res://Sprites/::1753639775
+PC Computer - Undertale - Ruins.png::CompressedTexture2D/CompressedTexture2D::8886344383463592691::1753412916::1753412916::1::::<><><>0<>0<>6c6a708eebeec32af466a0c4066ed470<>res://.godot/imported/PC Computer - Undertale - Ruins.png-d997a1b3ecc4d17d65f6bdce496408f4.ctex::
+sd.png::CompressedTexture2D/CompressedTexture2D::1044904417612776260::1753412916::1753412916::1::::<><><>0<>0<>c00d1b809e1ccb015b839809af621c9b<>res://.godot/imported/sd.png-750427e7f1a6d1cb336b0afc546e70e1.ctex::
+spritesheet.png::CompressedTexture2D/CompressedTexture2D::8402778615394013962::1753412916::1753412916::1::::<><><>0<>0<>c58cf96d59ffa0733fb77ce57577fe9f<>res://.godot/imported/spritesheet.png-8d1e45e7c563b1fc59afddcd8efeb8ef.ctex::
+Wall.png::CompressedTexture2D/CompressedTexture2D::3355831187066811459::1753412916::1753412916::1::::<><><>0<>0<>4e5c9c8fb7e1887f3e5fe0749d4cdedd<>res://.godot/imported/Wall.png-c1e6c8a44733b40234aae37bb1bf51ff.ctex::
+::res://Sprites/SpriteDialogues/::1753829995
+sans_dialogues.png::CompressedTexture2D/CompressedTexture2D::3291004613725792659::1753639789::1753639822::1::::<><><>0<>0<>b6f913a858a0afb471b250cf7e0654b6<>res://.godot/imported/sans_dialogues.png-2e5a78cbe403b96e5688e0df10559bec.ctex::
+yesica_dialogues.png::CompressedTexture2D/CompressedTexture2D::6425481531208165932::1753829989::1753829995::1::::<><><>0<>0<>7a6972811f25a3a89189494487811093<>res://.godot/imported/yesica_dialogues.png-b5504347780533606e2ad156ed1577d7.ctex::

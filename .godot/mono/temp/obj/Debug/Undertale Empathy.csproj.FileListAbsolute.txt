@@ -1,0 +1,18 @@
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\bin\Debug\Undertale Empathy.deps.json
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\bin\Debug\Undertale Empathy.runtimeconfig.json
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\bin\Debug\Undertale Empathy.dll
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\bin\Debug\Undertale Empathy.pdb
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\obj\Debug\Undertale Empathy.csproj.AssemblyReference.cache
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\obj\Debug\Undertale Empathy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\obj\Debug\Undertale Empathy.AssemblyInfoInputs.cache
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\obj\Debug\Undertale Empathy.AssemblyInfo.cs
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\obj\Debug\Undertale Empathy.csproj.CoreCompileInputs.cache
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\obj\Debug\Undertale Empathy.sourcelink.json
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\obj\Debug\Undertal.D0932924.Up2Date
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\obj\Debug\Undertale Empathy.dll
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\obj\Debug\refint\Undertale Empathy.dll
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\obj\Debug\Undertale Empathy.pdb
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\obj\Debug\Undertale Empathy.genruntimeconfig.cache
+C:\Users\Alexis\Documents\GitHub\Undertale-Empathy\.godot\mono\temp\obj\Debug\ref\Undertale Empathy.dll

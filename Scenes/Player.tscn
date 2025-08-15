@@ -15,37 +15,37 @@ region = Rect2(0, 48, 22, 39)
 atlas = ExtResource("1_rpqav")
 region = Rect2(0, 96, 22, 39)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_5ixxa"]
-atlas = ExtResource("1_rpqav")
-region = Rect2(0, 0, 22, 39)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_nn08x"]
 atlas = ExtResource("1_rpqav")
 region = Rect2(32, 0, 22, 39)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ixxa"]
+atlas = ExtResource("1_rpqav")
+region = Rect2(0, 0, 22, 39)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_52ee3"]
 atlas = ExtResource("1_rpqav")
 region = Rect2(64, 0, 22, 39)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_bhhdu"]
-atlas = ExtResource("1_rpqav")
-region = Rect2(0, 48, 22, 39)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_megsn"]
 atlas = ExtResource("1_rpqav")
 region = Rect2(32, 48, 22, 39)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bhhdu"]
+atlas = ExtResource("1_rpqav")
+region = Rect2(0, 48, 22, 39)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yoq75"]
 atlas = ExtResource("1_rpqav")
 region = Rect2(64, 48, 22, 39)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_ksbbd"]
-atlas = ExtResource("1_rpqav")
-region = Rect2(0, 96, 22, 39)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_glx4g"]
 atlas = ExtResource("1_rpqav")
 region = Rect2(32, 95, 22, 39)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ksbbd"]
+atlas = ExtResource("1_rpqav")
+region = Rect2(0, 96, 22, 39)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_miouo"]
 atlas = ExtResource("1_rpqav")
@@ -79,9 +79,6 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_5ixxa")
-}, {
-"duration": 1.0,
 "texture": SubResource("AtlasTexture_nn08x")
 }, {
 "duration": 1.0,
@@ -89,15 +86,15 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_52ee3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5ixxa")
 }],
 "loop": true,
 "name": &"WalkDown",
 "speed": 5.0
 }, {
 "frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_bhhdu")
-}, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_megsn")
 }, {
@@ -106,15 +103,15 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_yoq75")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bhhdu")
 }],
 "loop": true,
 "name": &"WalkLeft",
 "speed": 5.0
 }, {
 "frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ksbbd")
-}, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_glx4g")
 }, {
@@ -123,6 +120,9 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_miouo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ksbbd")
 }],
 "loop": true,
 "name": &"WalkUp",
@@ -130,7 +130,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dewec"]
-size = Vector2(20, 3.75)
+size = Vector2(15, 6)
 
 [node name="Player" type="CharacterBody2D"]
 z_index = 5
@@ -138,10 +138,12 @@ script = ExtResource("1_kyqiw")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_gntrk")
-animation = &"IdleDown"
+animation = &"WalkLeft"
+frame = 3
+frame_progress = 0.126316
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 16.875)
+position = Vector2(1.5, 16.5)
 shape = SubResource("RectangleShape2D_dewec")
 
 [node name="Timer" type="Timer" parent="."]
