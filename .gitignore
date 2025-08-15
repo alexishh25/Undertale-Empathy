@@ -10,6 +10,9 @@
 # Configuración y cache local del editor
 .godot/
 
+# Ignorar metadatos UID de scripts
+*.uid
+
 # Archivos generados por Godot que no deben versionarse
 *.import
 *.tmp
